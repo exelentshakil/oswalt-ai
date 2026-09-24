@@ -50,12 +50,12 @@ export function StripeInteractiveShowcase() {
   };
 
   return (
-    <section className="py-14 sm:py-20 border-t border-[var(--color-border)] bg-[var(--color-canvas)]">
+    <section className="pt-6 pb-12 sm:pt-8 sm:pb-14 border-t border-[var(--color-border)] bg-[var(--color-canvas)]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         
-        {/* Section Header */}
-        <div className="max-w-3xl mb-12 sm:mb-16">
-          <div className="inline-flex items-center gap-2 rounded-full border border-[#533AFD]/20 bg-[#533AFD]/8 px-3 py-1 text-xs font-mono text-[#533AFD] dark:text-[#7A68FF] mb-4">
+        {/* Section Header with Tight Padding */}
+        <div className="max-w-3xl mb-8 sm:mb-10">
+          <div className="inline-flex items-center gap-2 rounded-full border border-[#533AFD]/20 bg-[#533AFD]/8 px-3 py-1 text-xs font-mono text-[#533AFD] dark:text-[#7A68FF] mb-3">
             <ShieldCheck className="w-3.5 h-3.5" />
             <span>Trauma-Informed AI Engineering Architecture</span>
           </div>

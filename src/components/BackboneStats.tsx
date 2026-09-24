@@ -76,10 +76,10 @@ export function BackboneStats() {
   }, []);
 
   return (
-    <section className="py-12 sm:py-16 border-t border-[var(--color-border)] scroll-mt-20">
+    <section className="py-8 sm:py-10 border-t border-[var(--color-border)] scroll-mt-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Centered H2 Title with Stripe Opacity Hierarchy */}
-        <div className="text-center max-w-2xl mx-auto mb-10">
+        <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-[-0.025em] text-[var(--color-text-primary)]">
             Dependable verification for trauma-informed care
           </h2>
